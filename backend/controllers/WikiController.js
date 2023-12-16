@@ -27,6 +27,7 @@ exports.getRelatedArticles = ( async (req, res, next) => {
         articles: []
       };
       
+      
       // Populate the JSON object with titles and corresponding links
       for (let i = 0; i < length; i++) {
         const item = {
